@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: absolute;
+            background: palegoldenrod;
+
+        }
+        .one {
+            z-index: 5;
+            top: 400px;
+        }
+        .two {
+            z-index: 4;
+            top: 400px;
+        }
+        .red {
+            width: 200px;
+            height: 200px;
+            background: red;
+            z-index: 5;
+        }
+        .blue {
+            width: 200px;
+            height: 200px;
+            background: blue;
+            z-index: 4;
+        }
+        .yellow {
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            z-index: 6;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">Primer párrafo</div>
+    <div class="two">Segundo párrafo</div>
+    <section>
+        <div class="red">Red</div>
+        <div class="blue">Blue
+            <div class="yellow">Yellow</div>
+        </div>
+    </section>
+</body>
+</html>
